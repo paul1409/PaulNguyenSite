@@ -13,13 +13,13 @@ namespace PaulNguyenSite.Controllers {
         }
 
         public IActionResult About() {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "A quick summary.";
 
             return View();
         }
 
         public IActionResult Contact() {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Methods of contact.";
 
             return View();
         }
